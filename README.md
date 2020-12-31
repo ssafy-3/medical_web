@@ -19,3 +19,8 @@ https://backend-intro.vlpt.us/1/
 
 TypeScript 참고 링크
 https://coyoside.tistory.com/2
+
+
+
+서버 실행 명령어는 
+yarn start:dev

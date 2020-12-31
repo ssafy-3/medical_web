@@ -14,7 +14,7 @@
 
 서버
 - koa v2.13.0
-- node.js v10.0.0yarn
+- node.js v10.0.0
 
 클라이언트
 - TypeScript

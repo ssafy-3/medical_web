@@ -14,7 +14,7 @@ tsconfig.json 파일에 "noImplicitAny": true,  로 비활성화 되어있을텐
 이게 뭔 말이냐면 es5에서 nextscript로 버전 업그레이드 하면서 주소 지정 형식이 바꼈음 <br>
 (난 지금 typescript 쓰지만 어쨌든 es5보다 상위니까 해당됨)
 <br><br>
-라우터에서 <br>
+index.ts 에서 라우터부분의 <br>
 router.get('/*', async (ctx) => {
     ctx.body = 'Hello World!';
 });

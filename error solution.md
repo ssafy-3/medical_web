@@ -6,4 +6,5 @@ target이 es5로 잡혀있을텐데 얘도 지정해 줘야한다.
 <br><br><br>
 
 2. ### error TS7006: Parameter 'any' implicitly has an 'any' type
-tsconfig.json 파일에 "noImplicitAny": true,  로 비활성화 되어있을텐데 "noImplicitAny": false,  로 활성화 
+tsconfig.json 파일에 "noImplicitAny": true,  로 비활성화 되어있을텐데 "noImplicitAny": false,  로 활성화 시켜주자.
+

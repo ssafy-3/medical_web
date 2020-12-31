@@ -3,11 +3,12 @@
 tsconfig.json 파일에  "lib": ["es2015"],  를 설정해 주자.
 target이 es5로 잡혀있을텐데 얘도 지정해 줘야한다.
 
-<br><br><br>
+<br><br>
 
 2. ### error TS7006: Parameter 'any' implicitly has an 'any' type
 tsconfig.json 파일에 "noImplicitAny": true,  로 비활성화 되어있을텐데 "noImplicitAny": false,  로 활성화 시켜주자.
 
+<br><br>
 
 3. ### TypeError: Unexpected MODIFIER at 1, expected END
 이게 뭔 말이냐면 버전 업그레이드 하면서 주소 지정 형식이 바꼈음

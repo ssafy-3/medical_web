@@ -2,6 +2,25 @@
 
 의료 관리 침구실 개인 풀스텍 프로젝트
 
+<br><br>
+
+# 기술 스택
+
+환경
+- VScode
+
+서버
+- koa
+- node.js
+
+클라이언트
+- TypeScript
+
+데이터베이스
+- mySQL (heidiSQL)
+
+
+<br><br>
 
 # 환경 설정
 

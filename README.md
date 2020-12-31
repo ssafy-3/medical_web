@@ -9,9 +9,12 @@
 환경
 - VScode
 
+패키지매니저
+- yarn v1.22.0
+
 서버
-- koa
-- node.js
+- koa v2.13.0
+- node.js v10.0.0yarn
 
 클라이언트
 - TypeScript

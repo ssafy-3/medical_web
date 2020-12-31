@@ -11,7 +11,8 @@ tsconfig.json 파일에 "noImplicitAny": true,  로 비활성화 되어있을텐
 <br><br>
 
 3. ### TypeError: Unexpected MODIFIER at 1, expected END
-이게 뭔 말이냐면 es5에서 nextscript로 버전 업그레이드 하면서 주소 지정 형식이 바꼈음 (난 지금 typescript 쓰지만 어쨌든 es5보다 상위니까 해당됨)
+이게 뭔 말이냐면 es5에서 nextscript로 버전 업그레이드 하면서 주소 지정 형식이 바꼈음
+(난 지금 typescript 쓰지만 어쨌든 es5보다 상위니까 해당됨)
 <br><br>
 라우터에서 <br>
 router.get('/*', async (ctx) => {

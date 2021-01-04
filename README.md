@@ -48,5 +48,5 @@ https://coyoside.tistory.com/2
 yarn start:dev
 
 
-koa 버전 2 라면 sql도 버전 맞게 깔아줘야함
+koa 버전 2 라면 sql도 버전 맞게 깔아줘야함 <br> 
 npm install koa2-mysql --save

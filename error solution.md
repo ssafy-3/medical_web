@@ -45,4 +45,7 @@ kill pid <br>
 
 <br><br>
 
-6. ### 
+6. ### Error: Cannot find module
+
+이렇게 뜬다면 대체로 node .\src\틀린이름 <br>
+이런식으로 이름이나 경로가 틀려서 그런거 다시 한번 

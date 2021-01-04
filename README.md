@@ -63,3 +63,5 @@ package.json 의 <br>
   }
   
   <br> 을 추가해라
+<br>
+참고로 yarn start 하면 그냥 서버 키는거고 yarn start:dev 하면 개발 모드로 서버 키는거다 뭐, 막 구분할 필요없이 작업해도 되긴한데, 그래도.

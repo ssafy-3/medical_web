@@ -49,7 +49,8 @@ yarn start:dev
 
 
 koa 버전 2 라면 sql도 버전 맞게 깔아줘야함 <br> 
-npm install koa2-mysql --save
+npm install koa2-mysql --save (이거말고) <br>
+npm install mysql2 --save (이걸로해)
 
 <br><br>
 

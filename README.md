@@ -50,3 +50,16 @@ yarn start:dev
 
 koa 버전 2 라면 sql도 버전 맞게 깔아줘야함 <br> 
 npm install koa2-mysql --save
+
+<br><br>
+
+자동으로 서버를 갱신 시키고 싶다면 <br>
+$ npm install -g nodemon <br>
+로 추가하고 <br>
+package.json 의 <br>
+  "scripts": {
+    "start": "node src",
+    "start:dev": "nodemon --watch src/ src/index.ts"
+  }
+  
+  <br> 을 추가해라

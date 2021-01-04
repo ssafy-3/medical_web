@@ -27,7 +27,8 @@ https://nodejs.org/ko/docs/guides/event-loop-timers-and-nexttick/
 이러한 작업 중 하나가 완료되면 커널이 Node.js에게 알려주어 적절한 콜백을 poll 큐에 추가할 수 있게 하여 결국 실행되게 합니다. <br>
 
 <br>
-![image](https://user-images.githubusercontent.com/17943248/103517370-578f7a80-4eb5-11eb-8b20-198836752ee9.png)
+
+![image](https://user-images.githubusercontent.com/17943248/103517455-7c83ed80-4eb5-11eb-8d55-6a76f7749bbb.png)
 
 <br><br>
 

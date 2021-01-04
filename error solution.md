@@ -36,4 +36,13 @@ router.get('(/*)', async (ctx) => {
 
 <br><br>
 
-5. ### 
+5. ### 만약 yarn start 해서 서버를 켰는데 [nodemon] app crashed - waiting for file changes before starting 이런 에러가 난다?
+
+기존에 있던 서버가 안죽어서 그렇다. PID 확인 후 프로세스를  제거하자. <br>
+netstat -ntlp <br>
+kill pid <br>
+로 죽여도 되고, 작업관리자 켜서 해당 nodejs서버 죽이면 된다.
+
+<br><br>
+
+6. ### 

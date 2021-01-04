@@ -19,6 +19,20 @@ https://velog.io/@naseriansuzie/imcourseTIL20
 
 ### 3. node.js 이벤트루프
 
+https://nodejs.org/ko/docs/guides/event-loop-timers-and-nexttick/
+<br>
+이벤트 루프는 가능하다면 언제나 시스템 커널에 작업을 떠넘겨서 Node.js가 논 블로킹 I/O 작업을 수행하도록 해줍니다. <br>
+(JavaScript가 싱글 스레드임에도 불구하고) <br>
+대부분의 현대 커널은 멀티 스레드이므로 백그라운드에서 다수의 작업을 실행할 수 있습니다. <br>
+이러한 작업 중 하나가 완료되면 커널이 Node.js에게 알려주어 적절한 콜백을 poll 큐에 추가할 수 있게 하여 결국 실행되게 합니다. <br>
 
+<br><br>
+
+
+### 4. database connection pool
+
+https://brownbears.tistory.com/289
+<br>
+사용자가 접속할 수 있는 connection을 pool에 모아놓고 관리한다는 개념
 
 <br><br>

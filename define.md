@@ -26,6 +26,9 @@ https://nodejs.org/ko/docs/guides/event-loop-timers-and-nexttick/
 대부분의 현대 커널은 멀티 스레드이므로 백그라운드에서 다수의 작업을 실행할 수 있습니다. <br>
 이러한 작업 중 하나가 완료되면 커널이 Node.js에게 알려주어 적절한 콜백을 poll 큐에 추가할 수 있게 하여 결국 실행되게 합니다. <br>
 
+<br>
+![image](https://user-images.githubusercontent.com/17943248/103517370-578f7a80-4eb5-11eb-8b20-198836752ee9.png)
+
 <br><br>
 
 

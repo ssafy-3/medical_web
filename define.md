@@ -10,3 +10,15 @@ package.json 파일의 의존성 선언에는 version range가 사용됩니다. 
 package-lock.json 파일은 의존성 트리에 대한 정보를 가지고 있으며 package-lock.json 파일이 작성된 시점의 의존성 트리가 다시 생성될 수 있도록 보장합니다. <br>
 
 <br><br>
+
+### 2. callback방식, promise방식, async await방식
+
+https://velog.io/@naseriansuzie/imcourseTIL20
+
+<br><br>
+
+### 3. node.js 이벤트루프
+
+
+
+<br><br>

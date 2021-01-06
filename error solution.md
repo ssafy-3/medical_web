@@ -49,3 +49,22 @@ kill pid <br>
 
 이렇게 뜬다면 대체로 node .\src\틀린이름 <br>
 이런식으로 이름이나 경로가 틀려서 그런거 다시 한번 
+
+<br><br>
+
+7. yarn 실행하려는데 ### yarn : 이 시스템에서 스크립트를 실행할 수 없으므로  C:\Users~~~ 파일을 로드할 수 없습니다.
+
+이러면 이거 권한 문제이다. <br>
+관리자 권한으로 powershell 킨다음에 <br>
+ <br>
+해결책  <br>
+1. 관리자 권한으로 power shell 실행  <br>
+2. Get-ExecutionPolicy 명령어를 입력하면 권한 상태가 보여짐  <br>
+3. RemoteSigned의 권한이 아니라면 Set-ExecutionPolicy RemoteSigned 입력  <br>
+4. 변경하시겠습니까? Y  <br>
+5. 2번 내용 다시 입력하면 RemoteSigned으로 변경된 것을 확인 할 수 있다.  <br>
+그래서 yarn을 잘 설치했습니다!  <br>
+
+ <br> <br>
+ 
+ 8. ### 
